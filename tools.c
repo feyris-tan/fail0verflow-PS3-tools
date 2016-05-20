@@ -4,7 +4,6 @@
 // http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 
 #include <sys/types.h>
-#include <sys/mman.h>
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -18,7 +17,7 @@
 #include "tools.h"
 #include "aes.h"
 #include "sha1.h"
-
+#include "mman.h"
 //
 // misc
 //
